@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DT Photoblog</title>
+        <link href="Image/ĐT.png" rel="shortcut icon">
+        <meta charset="utf-8">
+        <meta name="author" content="Phạm Gia Tiến, Dương Gia Đức Đạt">
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            div.items{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            div.item {
+                width: 100%;
+                margin: 0.5%;
+                background-color: rgb(255, 201, 183);
+                border: 2px solid rgb(66, 2, 94);
+                padding: 5px;
+            }
+            div.item img{
+                width: 100%;
+            }
+            ul.menu{
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+                background-color:hotpink;
+                display: flex;
+            }
+            ul.menu > li{
+                max-width: 200px;
+            }
+            ul.menu > li > a{
+                text-decoration: none;
+                display: block;
+                padding: 20px;
+                color: turquoise;
+            }
+            ul.menu > li > a:hover{
+                background-color: rgb(127, 177, 253);
+                color: rgb(170, 243, 221);
+            }
+            ul.menu > li:last-child{
+                margin-left: auto;
+            }
+            div.cover {
+                width: 50%;
+                padding: 10px;
+            }
+            div.cover img{
+                width: 100%;
+            }
+            li.text {
+                width: 32%;
+                margin: 0.5%;
+            }
+            a.page {
+                width: 32%;
+                margin: 0.5%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="cover">
+            <img src="Image/Đ.png" alt="ĐT">
+        </div>
+        <section>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="#">Các chủ đề</a></li>
+                    <li><a href="#">Thông tin liên hệ</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section>
+            <div class="items">
+                <li class="text">
+                    <a class="page" href="idol.html">
+                        <div class="item">
+                            <h1>Idol</h1>
+                            <div>
+                                <img src="Image/Idol/Idol.png">
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="text">
+                    <a class="page" href="food.html">
+                        <div class="item">
+                            <h1>Món ăn</h1>
+                            <div>
+                                <img src="Image/DoAn/FOOd & drinks.png">
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="text">
+                    <a class="page" href="landscape.html">
+                        <div class="item">
+                            <h1>Phong cảnh</h1>
+                            <div>
+                                <img src="Image/PhongCanh/Photograph Landscape.png">
+                            </div>
+                        </div>
+                    </a>
+                </li>
+                <li class="text">
+                    <a class="page" href="anime.html">
+                        <div class="item">
+                            <h1>Cartoon-Anime</h1>
+                            <div>
+                                <img src="Image/Anime_Cartoon/Cartoon.png">
+                            </div>
+                        </div>
+                    </a>
+                </li>
+            </div>
+        </section>
+    </body>
+</html>

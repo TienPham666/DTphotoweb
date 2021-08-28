@@ -2,9 +2,13 @@
 <html>
     <head>
         <title>DT Photoblog</title>
-        <link href="Image/ĐT.png" rel="shortcut icon">
+        <link href="image/ĐT.png" rel="shortcut icon">
         <meta charset="utf-8">
         <meta name="author" content="Phạm Gia Tiến, Dương Gia Đức Đạt">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <style>
             * {
                 box-sizing: border-box;
@@ -47,8 +51,10 @@
                 margin-left: auto;
             }
             div.cover {
-                width: 50%;
+                width: 30%;
                 padding: 10px;
+                margin-left: auto;
+                margin-right: auto;
             }
             div.cover img{
                 width: 100%;
@@ -61,11 +67,29 @@
                 width: 32%;
                 margin: 0.5%;
             }
+            div.cover a{
+                width: 7%;
+            }
+            a#go-to-top{
+                display:block;
+                text-align: center;
+                width: 5%;
+                position: fixed;
+                bottom:5%;
+                right: 2.5%;
+                text-decoration: none;
+                padding:2px;
+            }
         </style>
     </head>
     <body>
+        <div>
+            <a href="javascript:;" id="go-to-top" title="Go to top">
+              go to top
+            </a>
+        </div>
         <div class="cover">
-            <img src="Image/Đ.png" alt="ĐT">
+            <img src="image/Đ.png" alt="ĐT">
         </div>
         <section>
             <nav>
@@ -83,7 +107,7 @@
                         <div class="item">
                             <h1>Idol</h1>
                             <div>
-                                <img src="Image/Idol/Idol.png">
+                                <img src="image/Idol/Idol.png">
                             </div>
                         </div>
                     </a>
@@ -93,7 +117,7 @@
                         <div class="item">
                             <h1>Món ăn</h1>
                             <div>
-                                <img src="Image/DoAn/FOOd & drinks.png">
+                                <img src="image/DoAn/FOOd & drinks.png">
                             </div>
                         </div>
                     </a>
@@ -103,7 +127,7 @@
                         <div class="item">
                             <h1>Phong cảnh</h1>
                             <div>
-                                <img src="Image/PhongCanh/Photograph Landscape.png">
+                                <img src="image/PhongCanh/Photograph Landscape.png">
                             </div>
                         </div>
                     </a>
@@ -113,7 +137,7 @@
                         <div class="item">
                             <h1>Cartoon-Anime</h1>
                             <div>
-                                <img src="Image/Anime_Cartoon/Cartoon.png">
+                                <img src="image/Anime_Cartoon/Cartoon.png">
                             </div>
                         </div>
                     </a>

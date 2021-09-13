@@ -9,77 +9,9 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="js/script.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link href="css/sheet.css" rel="stylesheet" />
         <style>
-            * {
-                box-sizing: border-box;
-            }
-            div.items{
-                display: flex;
-                flex-wrap: wrap;
-            }
-            div.item {
-                width: 100%;
-                margin: 0.5%;
-                background-color: rgb(255, 201, 183);
-                border: 2px solid rgb(66, 2, 94);
-                padding: 5px;
-            }
-            div.item img{
-                width: 100%;
-            }
-            ul.menu{
-                list-style-type: none;
-                padding: 0;
-                margin: 0;
-                background-color:hotpink;
-                display: flex;
-            }
-            ul.menu > li{
-                max-width: 200px;
-            }
-            ul.menu > li > a{
-                text-decoration: none;
-                display: block;
-                padding: 20px;
-                color: turquoise;
-            }
-            ul.menu > li > a:hover{
-                background-color: rgb(127, 177, 253);
-                color: rgb(170, 243, 221);
-            }
-            ul.menu > li:last-child{
-                margin-left: auto;
-            }
-            div.cover {
-                width: 30%;
-                padding: 10px;
-                margin-left: auto;
-                margin-right: auto;
-            }
-            div.cover img{
-                width: 100%;
-            }
-            li.text {
-                width: 32%;
-                margin: 0.5%;
-            }
-            a.page {
-                width: 32%;
-                margin: 0.5%;
-            }
-            div.cover a{
-                width: 7%;
-            }
-            a#go-to-top{
-                display:block;
-                text-align: center;
-                width: 5%;
-                position: fixed;
-                bottom:5%;
-                right: 2.5%;
-                text-decoration: none;
-                padding:2px;
-            }
+            
         </style>
     </head>
     <body>
@@ -96,52 +28,54 @@
                 <ul class="menu">
                     <li><a href="index.html">Trang chủ</a></li>
                     <li><a href="#">Các chủ đề</a></li>
-                    <li><a href="#">Thông tin liên hệ</a></li>
+                    <li><a href="#">Liên hệ</a></li>
                 </ul>
             </nav>
         </section>
         <section>
             <div class="items">
-                <li class="text">
-                    <a class="page" href="idol.html">
-                        <div class="item">
-                            <h1>Idol</h1>
-                            <div>
-                                <img src="image/Idol/Idol.png">
+                <ul class="Chude">
+                    <li class="text">
+                        <a class="page" href="idol.html">
+                            <div class="item">
+                                <h1>Idol</h1>
+                                <div>
+                                    <img src="image/Idol/Idol.png">
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </li>
-                <li class="text">
-                    <a class="page" href="food.html">
-                        <div class="item">
-                            <h1>Món ăn</h1>
-                            <div>
-                                <img src="image/DoAn/FOOd & drinks.png">
+                        </a>
+                    </li>
+                    <li class="text">
+                        <a class="page" href="food.html">
+                            <div class="item">
+                                <h1>Món ăn</h1>
+                                <div>
+                                    <img src="image/DoAn/FOOd & drinks.png">
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </li>
-                <li class="text">
-                    <a class="page" href="landscape.html">
-                        <div class="item">
-                            <h1>Phong cảnh</h1>
-                            <div>
-                                <img src="image/PhongCanh/Photograph Landscape.png">
+                        </a>
+                    </li>
+                    <li class="text">
+                        <a class="page" href="landscape.html">
+                            <div class="item">
+                                <h1>Phong cảnh</h1>
+                                <div>
+                                    <img src="image/PhongCanh/Photograph Landscape.png">
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </li>
-                <li class="text">
-                    <a class="page" href="anime.html">
-                        <div class="item">
-                            <h1>Cartoon-Anime</h1>
-                            <div>
-                                <img src="image/Anime_Cartoon/Cartoon.png">
+                        </a>
+                    </li>
+                    <li class="text">
+                        <a class="page" href="anime.html">
+                            <div class="item">
+                                <h1>Cartoon-Anime</h1>
+                                <div>
+                                    <img src="image/Anime_Cartoon/Cartoon.png">
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </li>
+                        </a>
+                    </li>
+                </ul>
             </div>
         </section>
     </body>

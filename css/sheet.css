@@ -31,6 +31,9 @@ ul.menu{
     padding: 0;
     margin: 0;
     background-color:hotpink;
+    
+}
+nav > ul.menu{
     display: flex;
 }
 ul.menu > li{
@@ -83,4 +86,11 @@ a#go-to-top{
 }
 a#go-to-top img {
     width: 100%;
+}
+.subcontent{
+    display: none;
+}
+.sub:hover .subcontent{
+    display: block;
+    position: absolute;
 }

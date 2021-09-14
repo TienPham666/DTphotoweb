@@ -4,9 +4,10 @@ body {
 * {
     box-sizing: border-box;
 }
-div.items{
+ul.Chude {
     display: flex;
     flex-wrap: wrap;
+    list-style-type: none;
 }
 div.item {
     width: 100%;
@@ -17,6 +18,13 @@ div.item {
 }
 div.item img{
     width: 100%;
+    transition: ease-in-out 1s;
+}
+div.item > div {
+    overflow: hidden;
+}
+div.item img:hover{
+    transform: scale(1.1);
 }
 ul.menu{
     list-style-type: none;
@@ -52,12 +60,12 @@ div.cover {
 div.cover img{
     width: 100%;
 }
-li.text {
-    width: 32%;
+ul.Chude li {
+    width: 39%;
     margin: 0.5%;
 }
 a.page {
-    width: 32%;
+    width: 39%;
     margin: 0.5%;
 }
 div.cover a{
@@ -72,4 +80,7 @@ a#go-to-top{
     right: 2.5%;
     text-decoration: none;
     padding:2px;
+}
+a#go-to-top img {
+    width: 100%;
 }

@@ -98,3 +98,133 @@ a#go-to-top img {
     display: block;
     position: absolute;
 }
+input{
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 15px 15px 15px 15px;
+
+}
+input[type=text]{
+    width: 20%;
+    font-size: 13px;
+    margin-left: 70%  
+}
+
+div.foods {
+    display: flex !important;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    color:black;
+}
+div.food img {
+  width: 100%;
+  height: 350px;
+}
+div.food {
+    width:25%;
+    border: 3px solid  black ;
+    border-radius:0 0 15px 15px;
+    margin: 2%;
+    font-size: 25px; 
+    text-align: center;
+    background-color: lightblue;
+}
+div.canhs {
+    display: flex ;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+div.canh {
+    border: 3px solid black;
+    border-radius: 15px 15px 15px 15px;
+    margin: auto;
+    font-size: 35px;
+    text-align: center;
+    background-color: lightblue;
+    width: 80%;
+
+}    
+div.canh img {
+    width: 80%;
+    height: 550px;
+    margin-top: 30px;
+  }
+h5.loidan{
+    font-size: 25px;
+    width: auto;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 10px;
+}
+  
+div.canh2 img {
+    width: 100%;
+    height: 350px;
+    border-radius:15px 15px 0 0;
+
+}
+
+div.canh2 {
+    width: 40%;
+    border: 3px solid  black ;
+    border-radius:15px 15px 15px 15px;
+    margin: 2%;
+    font-size: 25px; 
+    text-align: center;
+    background-color: lightblue;
+}
+.canh2.them {
+    margin-top: -15%;
+}
+h5.loidan1 {
+    position: absolute;
+    right: 3%;
+    width: 47%;
+    border: 3px solid purple;
+    padding: 10px;
+    font-size: 25px;
+    margin: 0px;
+    margin-bottom: 31%;
+
+}
+.canh2.them1{
+    margin-top:20%;
+    right: auto;
+}
+.canh2.them {
+    margin-top: -15%;
+}
+h5.loidan2 {
+    right: 3%;
+    width: 47%;
+    border: 3px solid purple;
+    padding: 10px;
+    font-size: 21px;
+    margin: 0px;
+    margin-right: 46%;
+    margin-top: -21%;
+}
+div.Canh1 {
+    border: 3px solid black;
+    border-radius: 15px 15px 15px 15px;
+    margin: auto;
+    font-size: 35px;
+    text-align: center;
+    background-color: lightblue;
+    width: 80%;
+
+}    
+div.Canh1 img {
+    width: 80%;
+    height: 550px;
+    margin-top: 30px;
+  }

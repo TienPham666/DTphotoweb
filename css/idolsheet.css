@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: thistle;
 }
 * {
     box-sizing: border-box;
@@ -79,4 +79,14 @@ div.thumb div {
 div.thumb {
     display: flex;
     flex-wrap: wrap;
+}
+#mainImg {
+    border: 20px solid cadetblue;
+    border-radius: 20px;
+    margin: 1px auto;
+}
+.subImg {
+    border: 10px solid cadetblue;
+    border-radius: 20px;
+    margin: 1px 1px;
 }

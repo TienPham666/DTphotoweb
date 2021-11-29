@@ -1,5 +1,8 @@
 body {
-    background-color: black;
+    background-color: thistle;
+}
+header {
+    background-color: rgb(64, 224, 117);
 }
 * {
     box-sizing: border-box;
@@ -13,7 +16,8 @@ div.item {
     width: 100%;
     margin: 0.5%;
     background-color: rgb(255, 201, 183);
-    border: 2px solid rgb(66, 2, 94);
+    border: 10px solid rgb(66, 2, 94);
+    border-radius: 20px;
     padding: 5px;
 }
 div.item img{

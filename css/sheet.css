@@ -98,3 +98,6 @@ a#go-to-top img {
     display: block;
     position: absolute;
 }
+footer {
+    background-color: rgb(64, 224, 117);
+}

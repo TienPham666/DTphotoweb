@@ -98,8 +98,6 @@ a#go-to-top img {
     display: block;
     position: absolute;
 }
-
-
 footer{
     margin-top:2%;
     background-color: rgb(64, 224, 117);
@@ -111,7 +109,6 @@ footer h2{
     color:#FFFFFF;
     font-size:30px;
 }
-
 div#lienhe{
     width: 50%;
     border-right: 2px solid #FFFFFF;
@@ -137,7 +134,6 @@ div#theodoi{
     width:50%;
     text-align: center;
 }
-
 div.followicons{
     margin-top: 2%;
     display: flex;

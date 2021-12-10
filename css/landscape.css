@@ -49,15 +49,8 @@ ul.menu > li > a{
     padding: 20px;
     color: black;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 20px;
+    font-size: 30px;
 }
-/*text-decoration: none;
-    display: block;
-    padding: 6px;
-    color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 28px;
-    margin-left: 37px; */
 ul.menu > li > a:hover{
     background-color: rgb(127, 177, 253);
     color: rgb(170, 243, 221);
@@ -168,4 +161,109 @@ a.followicon:hover{
     border-color: #FFFFFF;
 }
 
+input{
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 15px 15px 15px 15px;
+    margin-bottom: 10px;
 
+}
+input[type=text]{
+    width: 20%;
+    font-size: 13px;
+    margin-left: 70%  
+}
+div.canhs {
+    display: flex ;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+div.canh {
+    border: 3px solid black;
+    border-radius: 15px 15px 15px 15px;
+    margin: auto;
+    font-size: 35px;
+    text-align: center;
+    background-color: lightblue;
+    width: 80%;
+
+}    
+div.canh img {
+    width: 80%;
+    height: 550px;
+    margin-top: 30px;
+  }
+h5.loidan{
+    font-size: 25px;
+    width: auto;
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 10px;
+}
+  
+div.canh2 img {
+    width: 100%;
+    height: 350px;
+    border-radius:15px 15px 0 0;
+
+}
+
+div.canh2 {
+    width: 40%;
+    border: 3px solid  black ;
+    border-radius:15px 15px 15px 15px;
+    margin: 2%;
+    font-size: 25px; 
+    text-align: center;
+    background-color: lightblue;
+}
+.canh2.them {
+    margin-top: -15%;
+}
+h5.loidan1 {
+    position: absolute;
+    right: 3%;
+    width: 47%;
+    border: 3px solid purple;
+    padding: 10px;
+    font-size: 25px;
+    margin: 0px;
+    margin-bottom: 31%;
+
+}
+.canh2.them1{
+    margin-top:20%;
+    right: auto;
+}
+.canh2.them {
+    margin-top: -15%;
+}
+h5.loidan2 {
+    right: 3%;
+    width: 47%;
+    border: 3px solid purple;
+    padding: 10px;
+    font-size: 21px;
+    margin: 0px;
+    margin-right: 46%;
+    margin-top: -21%;
+}
+div.Canh1 {
+    border: 3px solid black;
+    border-radius: 15px 15px 15px 15px;
+    margin: auto;
+    font-size: 35px;
+    text-align: center;
+    background-color: lightblue;
+    width: 80%;
+
+}    
+div.Canh1 img {
+    width: 80%;
+    height: 550px;
+    margin-top: 30px;
+}

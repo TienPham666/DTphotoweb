@@ -75,12 +75,13 @@ div.cover img{
     width: 100%;
 }
 ul.Chude li {
-    width: 39%;
+    width: 49%;
     margin: 0.5%;
 }
 a.page {
     width: 39%;
     margin: 0.5%;
+    text-decoration: none;
 }
 div.cover a{
     width: 7%;
@@ -116,8 +117,7 @@ footer{
     padding: 2%;
 }
 footer  .container {
-    width: 33%;
-    border-right: 2px solid #FFFFFF;
+    width: 50%;
 }
 footer  .container .noi-dung.about{
     width:100%;
@@ -142,8 +142,8 @@ footer h2{
     font-size:30px;
 }
 div#lienhe{
-    width: 33%;
-    border-right: 2px solid #FFFFFF;
+    width: 50%;
+    
 }
 div#lienhe h2{
     text-align: center;
@@ -162,21 +162,12 @@ div#lienhe a{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
 div#lienhe a:hover{
-    color:#FFFFFF;
-}
-div#theodoi{
-    width:33%;
-    text-align: center;
-}
-div#theodoi h2{
-    text-align: center;
-    margin-bottom: 5%;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color:rgb(170, 243, 221);
 }
 div.followicons{
     margin-top: 2%;
     display: flex;
-    justify-content: center;
+    /*justify-content: center;*/
 }
 a.followicon{
     font-size: 35px;
@@ -184,14 +175,23 @@ a.followicon{
     height: 60px;
     text-align: center;
     text-decoration:none;
-    border-style: solid;
-    border-color:#000000;
-    border-width: 2px;
-    border-radius:100%;
     color: #000000;
     margin: 2%;
 }
-a.followicon:hover{
-    color: #FFFFFF;
-    border-color: #FFFFFF;
+@media screen and (max-width: 600px) {
+    ul.Chude li {
+        width: 100%;
+        margin: 0.5%;
+    }
+    footer{
+        
+        width: 100%;
+        display: block;
+    }
+    footer  .container {
+        width: 100%;
+    }
+    div#lienhe{
+        width: 100%;
+    }
 }

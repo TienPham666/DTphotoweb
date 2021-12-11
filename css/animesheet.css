@@ -22,7 +22,7 @@ ul.menu > li > a{
     display: block;
     padding: 20px;
     color: black;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     font-size: 30px;
 }
 ul.menu > li > a:hover{
@@ -91,43 +91,73 @@ div.thumb {
     margin: 1px 1px;
 }
 footer{
+    background-color: darkseagreen;
+}
+footer{
     margin-top:2%;
     background-color: rgb(64, 224, 117);
     width: 100%;
     display: flex;
     padding: 2%;
 }
+footer  .container {
+    width: 33%;
+    border-right: 2px solid #FFFFFF;
+}
+footer  .container .noi-dung.about{
+    width:100%;
+}
+footer .container .noi-dung.about h2{
+    position: relative;
+    color: #fff;
+    margin-bottom: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; 
+    font-size:30px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+footer .container .noi-dung.about h3{
+    color: #000000;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    padding: 1%;
+}
 footer h2{
     color:#FFFFFF;
     font-size:30px;
 }
-
 div#lienhe{
-    width: 50%;
+    width: 33%;
     border-right: 2px solid #FFFFFF;
 }
 div#lienhe h2{
     text-align: center;
     margin-bottom: 5%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
 div#lienhe h3{
     color: #000000;
     font-size: 25px;
-    font-family:Huhu;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     padding: 1%;
 }
 div#lienhe a{
     text-decoration: none;
     color: #000000;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
 div#lienhe a:hover{
     color:#FFFFFF;
 }
 div#theodoi{
-    width:50%;
+    width:33%;
     text-align: center;
 }
-
+div#theodoi h2{
+    text-align: center;
+    margin-bottom: 5%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
 div.followicons{
     margin-top: 2%;
     display: flex;

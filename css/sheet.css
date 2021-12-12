@@ -183,6 +183,9 @@ a.followicon{
         width: 100%;
         margin: 0.5%;
     }
+    a#go-to-top {
+        width: 10%;
+    }
     footer{
         
         width: 100%;

@@ -166,6 +166,9 @@ a.followicon{
     div.thumb div {
         width: 33%;
     }
+    a#go-to-top {
+        width: 10%;
+    }
     footer{
         
         width: 100%;

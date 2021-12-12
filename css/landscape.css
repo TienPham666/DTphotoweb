@@ -276,3 +276,19 @@ div.Canh1 img {
     height: 550px;
     margin-top: 30px;
 }
+@media screen and (max-width: 600px) {
+    a#go-to-top {
+        width: 10%;
+    }
+    footer{
+        
+        width: 100%;
+        display: block;
+    }
+    footer  .container {
+        width: 100%;
+    }
+    div#lienhe{
+        width: 100%;
+    }
+}

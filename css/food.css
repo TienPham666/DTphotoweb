@@ -199,38 +199,37 @@ div.food img {
   height: 350px;
 }
 div.food {
+    position: relative;
     width:25%;
     border: 3px solid  black ;
     border-radius:0 0 15px 15px;
     margin: 2%;
     font-size: 25px; 
-    text-align: center;
+    text-align: right;
     background-color: lightblue;
 }
-
 .mon1{
-    position: absolute;
-    top: 80%;
-    transform: translateY(-50%);
+    display: none;
+    /*transform: translateY(-50%);
     z-index:1;
-    padding:1px;
+    padding-left: 0;
     opacity:0;
-    transition: 0.5s;
-
-    
+    transition: 0.5s;*/
 }
 .food:hover .mon1{
     opacity: 1;
+    display: block;
+    position: absolute;
+    z-index: 99;
 }
 
-.cachlam{
-    width: 300px; 
-    height: 10px;
+div.cachlam{
+    position: absolute;
+    /*height: 10px;
     border: 1px ;
     word-wrap: break-word;
     text-align: center;
-    font-size: 25px;
-    margin-top: 10px;
+    font-size: 25px;*/
 }
 div.topic {
     position: fixed;
@@ -308,3 +307,20 @@ p {
 /*.pages:hover{
     background-color: #FFFFFF;
 }*/
+@media screen and (max-width: 600px) {
+    
+    a#go-to-top {
+        width: 10%;
+    }
+    footer{
+        
+        width: 100%;
+        display: block;
+    }
+    footer  .container {
+        width: 100%;
+    }
+    div#lienhe{
+        width: 100%;
+    }
+}

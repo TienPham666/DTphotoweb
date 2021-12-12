@@ -11,6 +11,28 @@ $(document).ready(function() {
             scrollTop:0
         }, 1000);
     })
+    $("nav ul.menu a").click(function() {
+        var h = $(this).attr("href")
+        $("html, body").animate({
+            scrollTop:$(h).prop("offsetTop") + "px"
+        }, 1000);
+    })
+    $(window).scroll(function(){
+        if ($(this).scrollTop() >= 100)
+            $("nav").css({
+                "position":"fixed",
+                "left":0,
+                "right":0,
+                "top":0,
+                "z-index":9999,
+                "opacity": 0.5
+            })
+        else
+            $("nav").css({
+                "position":"relative",
+                "opacity": 1
+            })
+    })
 })
 function init() {
     var images = document.querySelectorAll("div.thumb img")

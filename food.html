@@ -7,14 +7,14 @@
         <meta name="author" content="Phạm Gia Tiến, Dương Gia Đức Đạt">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="js/script.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <link href="css/food.css" rel="stylesheet" />
         <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+        <link href="css/food.css" rel="stylesheet" />
+        <script src="js/script.js"></script>
     </head>
     <body>
         <div>
@@ -26,8 +26,7 @@
             <img src="image/Đ.png" alt="ĐT">
             
         </div>
-        <section class="animate__animated animate__flipInX">
-            <nav>
+            <nav class="animate__animated animate__flipInX">
                 <ul class="menu">
                     <li><a href="index.html">Trang chủ</a></li>
                     <li class="sub">
@@ -39,11 +38,9 @@
                             <li><a href="anime.html">Cartoon-Anime</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Liên hệ</a></li>
-                    
+                    <li><a href="#lienhes">Liên hệ</a></li>
                 </ul>
             </nav>
-        </section>
         <div class="col40">
             <input type="text" placeholder="Nội dung cần tìm... "/>
             <input type="button" value="Tìm Kiếm"/>
@@ -246,44 +243,50 @@
        </div>
        <div class="pages">
         <ul>
-            <p class="container"><i class="arrow left"></i></p>
+            <p class="containers"><i class="arrow left"></i></p>
             <li><a href="#">1</a></li>
             <li><a href="#">2</a></li>
             <li><a href="#">....</a></li>
             <li><a href="#">5</a></li>
             <li><a href="#">....</a></li>
             <li><a href="#">10</a></li>
-            <p class="container"><i class="arrow right"></i></p>
+            <p class="containers"><i class="arrow right"></i></p>
 	
         </ul>
     </div>
         
         </section>
-         <footer>
-                <div id="lienhe">
-                    <h2>Liên hệ với chúng tôi:</h2>
+        <footer id="lienhes">
+            <div class="container">
+                <div class="noi-dung about">
+                    <h2>Về chúng tôi:</h2>
                     <h3>
-                        <b>
-                            <a href="mailto:dtphotoblog439@gmail.com"><i class="far fa-envelope"></i>
-                             : dtphotoblog439</a>
-                            </a>
-                        </b>
-                    </h3>
-                    <h3>
-                        <b>
-                            <a href="https://www.google.com/maps/place/371+Nguy%E1%BB%85n+Ki%E1%BB%87m,+Ph%C6%B0%E1%BB%9Dng+3,+G%C3%B2+V%E1%BA%A5p,+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh" target="blank"><i class="fas fa-map-marker-alt"></i> : 371 Nguyễn Kiệm, P.3, Q.Gò Vấp,
-                                TP.HCM</a>
-                        </b>
+                        Một trang web giúp bạn tìm thấy một bức ảnh đẹp. 
+                        Tuy vẫn còn chưa hoàn thiện nhưng với những bức ảnh đẹp ở đây chắc cũng đủ để bạn hài lòng nhỉ?
                     </h3>
                 </div>
-                <div id="theodoi">
-                    <h2>Theo dõi chúng tôi tại:</h2>
-                    <div class="followicons">
-                        <a class="followicon" href="https://www.facebook.com/DT-Photoblog-103349435524219" target="blank"><i class="fab fa-facebook-f"></i></a>
-                        <a class="followicon" href="https://www.instagram.com/dtphotoblog/" target="blank"><i class="fab fa-instagram"></i></a>
-                        <a class="followicon" href="https://twitter.com/dt_photoblog" target="blank"><i class="fab fa-twitter"></i></a>
-                    </div>
+                <div class="followicons">
+                    <a class="followicon" href="https://www.facebook.com/DT-Photoblog-103349435524219" target="blank"><img src="image/facebook.png"/></a>
+                    <a class="followicon" href="https://www.instagram.com/dtphotoblog/" target="blank"><img src="image/instagram.png"/></a>
+                    <a class="followicon" href="https://twitter.com/dt_photoblog" target="blank"><img src="image/twitter.png"/></a>
                 </div>
+            </div>
+            <div id="lienhe">
+                <h2>Liên hệ với chúng tôi qua:</h2>
+                <h3>
+                    <b>
+                        <a href="mailto:dtphotoblog439@gmail.com"><img src="image/contact.png"/>
+                         : dtphotoblog439</a>
+                        </a>
+                    </b>
+                </h3>
+                <h3>
+                    <b>
+                        <a href="https://www.google.com/maps/place/371+Nguy%E1%BB%85n+Ki%E1%BB%87m,+Ph%C6%B0%E1%BB%9Dng+3,+G%C3%B2+V%E1%BA%A5p,+Th%C3%A0nh+ph%E1%BB%91+H%E1%BB%93+Ch%C3%AD+Minh" target="blank"><img src="image/map.png"/> : 371 Nguyễn Kiệm, P.3, Q.Gò Vấp,
+                            TP.HCM</a>
+                    </b>
+                </h3>
+            </div>
         </footer>
             
     </body>

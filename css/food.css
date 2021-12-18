@@ -312,6 +312,9 @@ p {
     a#go-to-top {
         width: 10%;
     }
+    div.food {
+        width:70%;
+    }
     footer{
         
         width: 100%;

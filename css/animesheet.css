@@ -169,6 +169,9 @@ a.followicon{
     a#go-to-top {
         width: 10%;
     }
+    div.item > img {
+        width: 100%;
+    }
     footer{
         
         width: 100%;

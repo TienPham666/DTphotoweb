@@ -276,7 +276,7 @@ div.Canh1 img {
     height: 550px;
     margin-top: 30px;
 }
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {
     a#go-to-top {
         width: 10%;
     }
@@ -291,4 +291,4 @@ div.Canh1 img {
     div#lienhe{
         width: 100%;
     }
-}
+}*/
